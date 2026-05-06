@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Gallery</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Image Gallery</h1>
+
+<!-- Filters -->
+<div class="filters">
+  <button onclick="filterImages('all')">All</button>
+  <button onclick="filterImages('nature')">Nature</button>
+  <button onclick="filterImages('city')">City</button>
+  <button onclick="filterImages('animals')">Animals</button>
+  <button onclick="filterImages('food')">Food</button>
+  <button onclick="filterImages('travel')">Travel</button>
+</div>
+
+<!-- Gallery -->
+<div class="gallery" id="gallery">
+
+  <!-- Nature -->
+  <img src="https://picsum.photos/id/1015/400/300" data-category="nature" onclick="openLightbox(0)">
+  <img src="https://picsum.photos/id/1011/400/300" data-category="nature" onclick="openLightbox(1)">
+  <img src="https://picsum.photos/id/1018/400/300" data-category="nature" onclick="openLightbox(2)">
+  <img src="https://picsum.photos/id/1020/400/300" data-category="nature" onclick="openLightbox(3)">
+
+  <!-- City -->
+  <img src="https://picsum.photos/id/1012/400/300" data-category="city" onclick="openLightbox(4)">
+  <img src="https://picsum.photos/id/1016/400/300" data-category="city" onclick="openLightbox(5)">
+  <img src="https://picsum.photos/id/1022/400/300" data-category="city" onclick="openLightbox(6)">
+  <img src="https://picsum.photos/id/1023/400/300" data-category="city" onclick="openLightbox(7)">
+
+  <!-- Animals -->
+  <img src="https://picsum.photos/id/1024/400/300" data-category="animals" onclick="openLightbox(8)">
+  <img src="https://picsum.photos/id/1025/400/300" data-category="animals" onclick="openLightbox(9)">
+  <img src="https://picsum.photos/id/1062/400/300" data-category="animals" onclick="openLightbox(10)">
+  <img src="https://picsum.photos/id/1074/400/300" data-category="animals" onclick="openLightbox(11)">
+
+  <!-- Food -->
+  <img src="https://picsum.photos/id/1080/400/300" data-category="food" onclick="openLightbox(12)">
+  <img src="https://picsum.photos/id/1081/400/300" data-category="food" onclick="openLightbox(13)">
+  <img src="https://picsum.photos/id/1084/400/300" data-category="food" onclick="openLightbox(14)">
+  <img src="https://picsum.photos/id/1085/400/300" data-category="food" onclick="openLightbox(15)">
+
+  <!-- Travel -->
+  <img src="https://picsum.photos/id/1035/400/300" data-category="travel" onclick="openLightbox(16)">
+  <img src="https://picsum.photos/id/1043/400/300" data-category="travel" onclick="openLightbox(17)">
+  <img src="https://picsum.photos/id/1050/400/300" data-category="travel" onclick="openLightbox(18)">
+  <img src="https://picsum.photos/id/1057/400/300" data-category="travel" onclick="openLightbox(19)">
+
+</div>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" style="display:none;">
+  <img id="lightbox-img" src="">
+  <div>
+    <button onclick="prevImage()">Prev</button>
+    <button onclick="nextImage()">Next</button>
+    <button onclick="closeLightbox()">Close</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+```
+
+
