@@ -74,6 +74,22 @@ A personal portfolio website to showcase my skills and projects.
 
 ---
 
+## 🚀 Live Demo
+
+Explore my deployed projects:
+
+✨ **Main Hub**  
+🔗 https://akankshakumari15.github.io/CodeAlpha_Tasks/
+
+📌 **Projects**
+- Image Gallery  
+- Calculator  
+- Portfolio  
+
+Click the link above to view all projects in one place.
+
+---
+
 ## ▶️ How to Run
 
 1. Clone the repository:
